@@ -1,0 +1,495 @@
+# ============================================================
+#  CG GOVT JOB ALERT - SETTINGS
+#  Is file mein badlav karke aap alerts control kar sakte ho.
+#  Naya keyword jodna ho to bas uski list mein "- keyword" likh do.
+#  (Har line ki shuruaat mein spaces aur "- " ka dhyan rakhna)
+# ============================================================
+
+lookback_days: 7          # weekly email mein pichhle kitne din ki vacancies
+weekly_day: 0             # weekly email kis din: 0=Somvar, 1=Mangal ... 6=Ravivar
+reminder_days: 7          # last date itne din mein ho to "Last date jaldi" mein dobara dikhao
+include_generic_official: true   # official site ki aisi bharti jisme pad ka naam saaf na ho, use bhi "Anya" mein dikhao
+
+# ---------------- AAPKE FIELDS (category: keywords) ----------------
+categories:
+  "💻 Computer / IT":
+    - data entry
+    - deo
+    - computer operator
+    - computer assistant
+    - computer programmer
+    - assistant programmer
+    - programmer
+    - system analyst
+    - system administrator
+    - it officer
+    - it assistant
+    - it manager
+    - it consultant
+    - it expert
+    - network engineer
+    - network administrator
+    - hardware engineer
+    - software
+    - database
+    - data manager
+    - mis
+    - mis assistant
+    - mis coordinator
+    - technical assistant
+    - chips
+    - nic
+    - e-district
+    - e-governance
+    - district e-manager
+    - lok seva kendra
+    - aadhaar operator
+    - steno
+    - stenographer
+    - steno typist
+    - typist
+    - कंप्यूटर
+    - कम्प्यूटर
+    - डाटा एंट्री
+    - डेटा एंट्री
+    - प्रोग्रामर
+    - आईटी
+    - शीघ्रलेखक
+    - स्टेनो
+    - टाइपिस्ट
+    - एमआईएस
+    - आधार ऑपरेटर
+    - ई-डिस्ट्रिक्ट
+    - तकनीकी सहायक
+
+  "🏡 Panchayat / Revenue / Gramin":
+    - patwari
+    - panchayat sachiv
+    - gram panchayat
+    - rozgar sahayak
+    - gram rozgar sahayak
+    - revenue inspector
+    - kotwar
+    - gram sevak
+    - rural agriculture extension officer
+    - raeo
+    - village level worker
+    - block coordinator
+    - mgnrega
+    - nrega
+    - vb-g ram g
+    - pmay
+    - awas mitra
+    - swachh bharat
+    - nrlm
+    - bihan
+    - पटवारी
+    - पंचायत सचिव
+    - ग्राम पंचायत
+    - रोजगार सहायक
+    - राजस्व निरीक्षक
+    - कोटवार
+    - ग्राम सेवक
+    - ग्रामीण कृषि विस्तार अधिकारी
+    - ब्लॉक समन्वयक
+    - विकासखंड समन्वयक
+    - मनरेगा
+    - आवास मित्र
+    - बिहान
+
+  "📮 Daak Vibhag (Post Office)":
+    - gramin dak sevak
+    - gds
+    - bpm
+    - abpm
+    - dak sevak
+    - postman
+    - mail guard
+    - postal assistant
+    - sorting assistant
+    - india post
+    - ग्रामीण डाक सेवक
+    - डाक सेवक
+    - पोस्टमैन
+    - डाक विभाग
+    - डाकघर
+
+  "🏢 Office / Court / Bank / Central":
+    - assistant grade
+    - sahayak grade
+    - clerk
+    - lower division clerk
+    - ldc
+    - udc
+    - office assistant
+    - junior assistant
+    - accountant
+    - accounts
+    - auditor
+    - peon
+    - bhritya
+    - multi tasking
+    - mts
+    - collectorate
+    - collector office
+    - district court
+    - family court
+    - high court
+    - legal services authority
+    - apex bank
+    - cooperative bank
+    - sahkari bank
+    - cooperative society
+    - ssc
+    - chsl
+    - cgl
+    - secr
+    - railway
+    - rrb
+    - सहायक ग्रेड
+    - लिपिक
+    - कार्यालय सहायक
+    - लेखापाल
+    - लेखा
+    - भृत्य
+    - चपरासी
+    - कलेक्टोरेट
+    - कलेक्ट्रेट
+    - जिला न्यायालय
+    - व्यवहार न्यायालय
+    - कुटुंब न्यायालय
+    - उच्च न्यायालय
+    - हाईकोर्ट
+    - विधिक सेवा प्राधिकरण
+    - सहकारी बैंक
+    - अपेक्स बैंक
+    - सहकारी समिति
+    - रेलवे
+
+# ---------------- TURANT ALERT (roz check, hafte ka intezaar nahi) ----------------
+urgent_keywords:
+  - patwari
+  - पटवारी
+  - panchayat sachiv
+  - पंचायत सचिव
+  - rozgar sahayak
+  - रोजगार सहायक
+  - assistant grade
+  - sahayak grade
+  - सहायक ग्रेड
+  - data entry
+  - डाटा एंट्री
+  - computer operator
+  - कंप्यूटर ऑपरेटर
+  - programmer
+  - प्रोग्रामर
+  - gramin dak sevak
+  - ग्रामीण डाक सेवक
+  - revenue inspector
+  - राजस्व निरीक्षक
+  - steno
+  - शीघ्रलेखक
+
+# ---------------- YE PAD NAHI CHAHIYE ----------------
+exclude:
+  - teacher
+  - shikshak
+  - lecturer
+  - vyakhyata
+  - professor
+  - principal
+  - tgt
+  - pgt
+  - prt
+  - army
+  - agniveer
+  - police
+  - constable
+  - si recruitment
+  - sub inspector
+  - home guard
+  - homeguard
+  - nagar sena
+  - fireman
+  - jail
+  - prahari
+  - forest guard
+  - van rakshak
+  - nurse
+  - nursing
+  - doctor
+  - medical officer
+  - anm
+  - gnm
+  - pharmacist
+  - lab technician
+  - शिक्षक
+  - व्याख्याता
+  - प्राध्यापक
+  - प्राचार्य
+  - सेना
+  - अग्निवीर
+  - पुलिस
+  - आरक्षक
+  - सिपाही
+  - उप निरीक्षक
+  - होमगार्ड
+  - होम गार्ड
+  - नगर सेना
+  - जेल
+  - प्रहरी
+  - वनरक्षक
+  - नर्स
+  - चिकित्सा अधिकारी
+  - डॉक्टर
+  - फार्मासिस्ट
+  - tender
+  - निविदा
+  - admission
+  - entrance
+  - lateral entry
+  - प्रवेश हेतु
+  - प्रवेश परीक्षा
+
+# ---------------- RESULT / MERIT / ADMIT CARD (alag section mein aayenge) ----------------
+status_words:
+  - result
+  - merit
+  - selection list
+  - selected candidates
+  - waiting list
+  - admit card
+  - answer key
+  - model answer
+  - cut off
+  - cutoff
+  - interview
+  - skill test
+  - typing test
+  - document verification
+  - counseling
+  - counselling
+  - eligible
+  - ineligible
+  - claim objection
+  - परिणाम
+  - रिजल्ट
+  - मेरिट
+  - चयन सूची
+  - प्रतीक्षा सूची
+  - प्रवेश पत्र
+  - एडमिट कार्ड
+  - मॉडल उत्तर
+  - साक्षात्कार
+  - कौशल परीक्षा
+  - टंकण परीक्षा
+  - दस्तावेज सत्यापन
+  - पात्र अपात्र
+  - दावा आपत्ति
+
+# Bharti wali khabar pehchanne ke shabd
+job_words:
+  - recruit
+  - vacanc
+  - bharti
+  - bharati
+  - notification
+  - advertisement
+  - posts
+  - apply
+  - application
+  - naukri
+  - contract
+  - contractual
+  - walk-in
+  - walk in
+  - appointment
+  - भर्ती
+  - पद
+  - पदों
+  - नौकरी
+  - रिक्त
+  - आवेदन
+  - विज्ञापन
+  - संविदा
+  - नियुक्ति
+
+# Chhattisgarh pehchanne ke shabd (news ke liye)
+cg_words:
+  - chhattisgarh
+  - chattisgarh
+  - cgpsc
+  - vyapam
+  - cgssb
+  - karmchari chayan mandal
+  - cg
+  - raipur
+  - bilaspur
+  - durg
+  - bhilai
+  - korba
+  - raigarh
+  - rajnandgaon
+  - jagdalpur
+  - bastar
+  - ambikapur
+  - surguja
+  - dhamtari
+  - mahasamund
+  - janjgir
+  - kanker
+  - kawardha
+  - छत्तीसगढ़
+  - सीजी
+  - व्यापम
+  - कर्मचारी चयन मंडल
+  - रायपुर
+  - बिलासपुर
+  - दुर्ग
+  - भिलाई
+  - कोरबा
+  - रायगढ़
+  - राजनांदगांव
+  - जगदलपुर
+  - बस्तर
+  - अंबिकापुर
+  - सरगुजा
+  - धमतरी
+  - महासमुंद
+  - जांजगीर
+  - कांकेर
+  - कवर्धा
+
+# All-India bhartiyan jinme CG wale bhi apply kar sakte hain
+national_ok:
+  - gramin dak sevak
+  - india post
+  - gds
+  - ssc
+  - chsl
+  - mts
+  - secr
+  - ग्रामीण डाक सेवक
+  - डाक सेवक
+
+# ---------------- NEWS SEARCH (Google News) ----------------
+news_queries:
+  - Chhattisgarh data entry operator recruitment
+  - Chhattisgarh computer operator vacancy
+  - Chhattisgarh assistant grade 3 recruitment
+  - Chhattisgarh stenographer typist recruitment
+  - Chhattisgarh programmer IT officer recruitment
+  - CHiPS Chhattisgarh recruitment
+  - Chhattisgarh patwari recruitment
+  - Chhattisgarh panchayat sachiv recruitment
+  - Chhattisgarh rozgar sahayak vacancy
+  - Chhattisgarh revenue inspector recruitment
+  - CG Vyapam recruitment notification
+  - CGSSB recruitment
+  - CGPSC recruitment
+  - Chhattisgarh collectorate recruitment
+  - Chhattisgarh district court recruitment
+  - High Court Bilaspur recruitment
+  - Chhattisgarh apex bank cooperative bank recruitment
+  - Chhattisgarh contractual recruitment
+  - India Post GDS recruitment
+  - SSC CHSL notification
+  - SSC MTS notification
+  - SECR Bilaspur recruitment
+  - छत्तीसगढ़ कंप्यूटर ऑपरेटर भर्ती
+  - छत्तीसगढ़ डाटा एंट्री ऑपरेटर भर्ती
+  - छत्तीसगढ़ सहायक ग्रेड 3 भर्ती
+  - छत्तीसगढ़ पटवारी भर्ती
+  - छत्तीसगढ़ पंचायत सचिव भर्ती
+  - छत्तीसगढ़ रोजगार सहायक भर्ती
+  - छत्तीसगढ़ संविदा भर्ती
+  - कलेक्टोरेट भर्ती छत्तीसगढ़
+  - जिला न्यायालय भर्ती छत्तीसगढ़
+  - व्यापम भर्ती विज्ञापन
+  - ग्रामीण डाक सेवक भर्ती
+
+# ---------------- OFFICIAL WEBSITES ----------------
+# Zila websites (inka "Recruitment" page check hoga). Koi site na khule to email ke neeche dikhega.
+district_sites:
+  - raipur.gov.in
+  - bilaspur.gov.in
+  - durg.gov.in
+  - korba.gov.in
+  - raigarh.gov.in
+  - rajnandgaon.gov.in
+  - janjgir-champa.gov.in
+  - bastar.gov.in
+  - dantewada.gov.in
+  - kanker.gov.in
+  - kondagaon.gov.in
+  - narayanpur.gov.in
+  - bijapur.gov.in
+  - sukma.gov.in
+  - kabirdham.gov.in
+  - mahasamund.gov.in
+  - dhamtari.gov.in
+  - gariaband.gov.in
+  - balodabazar.gov.in
+  - balod.gov.in
+  - bemetara.gov.in
+  - mungeli.gov.in
+  - korea.gov.in
+  - surajpur.gov.in
+  - surguja.gov.in
+  - balrampur.gov.in
+  - jashpur.gov.in
+  - gaurela-pendra-marwahi.cg.gov.in
+  - mcb.cg.gov.in
+  - kcg.cg.gov.in
+  - mohla-manpur-chowki.cg.gov.in
+  - sarangarh-bilaigarh.cg.gov.in
+  - sakti.cg.gov.in
+
+# Zila nyayalay (District Court) websites
+court_sites:
+  - raipur.dcourts.gov.in
+  - bilaspur.dcourts.gov.in
+  - durg.dcourts.gov.in
+  - korba.dcourts.gov.in
+  - raigarh.dcourts.gov.in
+  - rajnandgaon.dcourts.gov.in
+  - janjgir.dcourts.gov.in
+  - bastar.dcourts.gov.in
+  - surguja.dcourts.gov.in
+  - mahasamund.dcourts.gov.in
+  - dhamtari.dcourts.gov.in
+  - kanker.dcourts.gov.in
+  - kabirdham.dcourts.gov.in
+  - balod.dcourts.gov.in
+  - bemetara.dcourts.gov.in
+  - mungeli.dcourts.gov.in
+  - jashpur.dcourts.gov.in
+  - korea.dcourts.gov.in
+  - balodabazar.dcourts.gov.in
+
+# Rajya / Kendra ki doosri official sites
+other_sites:
+  - name: CG Vyapam / CGSSB
+    url: https://vyapamcg.cgstate.gov.in/
+  - name: CGSSB
+    url: https://cgssb.cgstate.gov.in/
+  - name: CGPSC
+    url: https://psc.cg.gov.in/
+  - name: High Court Bilaspur
+    url: https://highcourt.cg.gov.in/
+  - name: CHiPS
+    url: https://www.chips.gov.in/
+  - name: CG e-Rojgar
+    url: https://erojgar.cg.gov.in/
+  - name: NHM Chhattisgarh
+    url: https://cghealth.nic.in/
+  - name: CG Apex Bank
+    url: https://www.cgapexbank.com/
+  - name: Panchayat Vibhag CG
+    url: https://prd.cg.gov.in/
+  - name: India Post GDS
+    url: https://indiapostgdsonline.gov.in/
+  - name: SSC
+    url: https://ssc.gov.in/
+  - name: SECR Railway
+    url: https://secr.indianrailways.gov.in/
