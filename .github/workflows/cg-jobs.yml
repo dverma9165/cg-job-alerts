@@ -2,15 +2,25 @@ name: CG Govt Job Alerts
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # roz subah 9:00 baje (IST)
-  workflow_dispatch:        # Actions tab se manually bhi chala sakte ho
+    - cron: "30 3 * * *"   # roz subah 9:00 baje IST (Somvar = weekly list, baaki din = sirf important)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "weekly = poori list, daily = sirf important"
+        type: choice
+        default: weekly
+        options: [weekly, daily]
 
 permissions:
   contents: write
 
+concurrency:
+  group: cg-job-alerts
+
 jobs:
   alert:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -18,18 +28,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Vacancies check karo aur bhejo
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Vacancies check karo aur email bhejo
         env:
+          MODE: ${{ github.event.inputs.mode || 'auto' }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
-          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
-          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
         run: python cg_jobs_alert.py
 
       - name: Bheji gayi vacancies yaad rakho
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen.json
-          git diff --cached --quiet || (git commit -m "Update seen jobs" && git push)
+          git add state.json
+          git diff --cached --quiet || (git commit -m "Update job state" && git push)
