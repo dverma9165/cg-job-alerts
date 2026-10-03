@@ -890,6 +890,72 @@
    "end": null,
    "first_seen": "2026-10-02",
    "urgent": false
+  },
+  "news|ssc chsl notification ज र ldc deo और अन य पद पर भर त ज न आव दन क आख र त र ख": {
+   "title": "SSC CHSL Notification जारी, LDC, DEO और अन्य पदों पर भर्ती, जानें आवेदन की आखिरी तारीख",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT2F5dV9JY00tRkNXTmVQLTY3dGxtcFk1dzlaNS1GZDhERnZvdWVpdFYweWt3ckJIaVhWOGtmTERaUlF2RVVZblIycnF1TFppejdJVGN6VUhfWVJWUWM3a19mWm55ZzQzWW1HLTZvM1RLUWZBVy1lYno0MlBrZ001b0x3cUlPd1FHZGk00gGQAUFVX3lxTE9Ndm5RNHRUNXNaNUFjd3NKeXVVOGJGbHBFb005RDY1Z2swLVFRY3hQcFVGSHVjSVc2V2huVW1PMTR4TXBXdDdYYVgtdUhrQ2dDaUVlNkhUaW1jU0Q5WG1oNnNqNjVQRTRwajN2bnMwcnlrSkhDS3dIak5NUWY5QmFQX1lwNkhGYTJpMzhIMGtCcA?oc=5",
+   "source": "The Sootr",
+   "kind": "news",
+   "cat": "💻 Computer / IT",
+   "start": "2026-10-03",
+   "end": null,
+   "first_seen": "2026-10-03",
+   "urgent": false
+  },
+  "site|b8085c9acea424eef81d3cf7d20c0381": {
+   "title": "List of Eligible/Ineligible Candidates After Disposal of Claims and Objections and Candidates Eligible for the Computer Skill Test for the Recruitment of Gram Panchayat Secretaries",
+   "link": "https://drive.google.com/file/d/1Y4YCRg-X3Aj_-WjsI9BrYddIbLB7GgCz/view?usp=sharing",
+   "source": "Zila Kanker",
+   "kind": "site",
+   "cat": "📋 Result / Merit List / Admit Card (aapke fields)",
+   "start": "2026-10-02",
+   "end": "2026-10-08",
+   "first_seen": "2026-10-03",
+   "urgent": false
+  },
+  "site|4c069a66674d4b827572752de9b4fcc3": {
+   "title": "Publication of the revised list following the resolution of claims and objections regarding the recruitment of sports instructors for the Tribal Boys’ Sports Complex, Dondi.",
+   "link": "https://cdn.s3waas.gov.in/s3c45147dee729311ef5b5c3003946c48f/uploads/2026/10/17909558089817.pdf",
+   "source": "Zila Balod",
+   "kind": "site",
+   "cat": "📌 Anya CG Govt Vacancies (PDF kholkar pad check karein)",
+   "start": "2026-10-02",
+   "end": "2026-10-10",
+   "first_seen": "2026-10-03",
+   "urgent": false
+  },
+  "site|c4b2fa21a0c2fa2e01316ccb0b1dd17f": {
+   "title": "1. Unless a contrary intention appears, an order passed today is presumed not to be intended to have a retrospective operation. Law passed today cannot apply to the events of the past.",
+   "link": "https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=MzgxMDR8MTc5MTAyMzE3Ng%3D%3D.39480f049ba492db1a2ddab8d508d0e7985cc892dd6a03fb3f8e33cfa8c0d690",
+   "source": "High Court Bilaspur",
+   "kind": "site",
+   "cat": "📌 Anya CG Govt Vacancies (PDF kholkar pad check karein)",
+   "start": null,
+   "end": null,
+   "first_seen": "2026-10-03",
+   "urgent": false
+  },
+  "site|ee6ab7b6f3b305644d16bb1f9fd0f671": {
+   "title": "10. When a special enactment provides a statutory efficacious mechanism for redressal of the grievance, the High Court should not exercise its extraordinary jurisdiction u/Article 226 of the Constitution.",
+   "link": "https://highcourt.cg.gov.in/Afr/view_file_afr.php?token=Mzc5MTF8MTc5MTAyMzE3Ng%3D%3D.d628de3b7f5b4a46c26fef77c6855711045db476c16022efc114124b85d102fa",
+   "source": "High Court Bilaspur",
+   "kind": "site",
+   "cat": "🏢 Office / Court / Bank / Central",
+   "start": null,
+   "end": null,
+   "first_seen": "2026-10-03",
+   "urgent": false
+  },
+  "site|4d9793f1825d2d51c6080e70859becbe": {
+   "title": "3. High Court Takes Strict View of Deaths Due to Electrocution, Directs Removal of Illegal Fencing and Enforcement of Safety Norms. 4. Justice Radhakishan Agrawal: Career, Achievements and Retirement of the Chhattisgarh High Court Judge. 5. Legal Literacy Camp Held at Garangi in Kondagaon, Students ",
+   "link": "https://highcourt.cg.gov.in/news/view_file_news.php?token=MzgwNTd8MTc5MTAyMzE3Ng%3D%3D.5479f88d1b8c92d9af963e7e583ceed2744b3dfaef8342b576d92cff9ba8d4a3",
+   "source": "High Court Bilaspur",
+   "kind": "site",
+   "cat": "🏢 Office / Court / Bank / Central",
+   "start": null,
+   "end": null,
+   "first_seen": "2026-10-03",
+   "urgent": false
   }
  },
  "baselined": [
@@ -920,6 +986,7 @@
   "https://bemetara.gov.in/en/notice_category/recruitment/",
   "https://sarangarh-bilaigarh.cg.gov.in/en/notice_category/recruitment/",
   "https://janjgir-champa.gov.in/en/notice_category/recruitment/",
-  "https://balodabazar.gov.in/en/notice_category/recruitment/"
+  "https://balodabazar.gov.in/en/notice_category/recruitment/",
+  "https://kanker.gov.in/en/notice_category/recruitment/"
  ]
 }
